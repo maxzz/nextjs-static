@@ -1,0 +1,2 @@
+https://github.com/gregrickaby/nextjs-github-pages
+Finally, place a .nojekyll file in the /public directory to disable Github Pages from trying to create a Jekyll website.
