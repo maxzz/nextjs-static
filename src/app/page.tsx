@@ -1,7 +1,17 @@
+import Link from "next/link";
+
 export default function Home() {
-  return (
-    <main className="p-24 min-h-screen flex flex-col items-center justify-center">
-        123
-    </main>
-  )
+    return (
+        <>
+            <header className="p-24 h-full bg-slate-700">
+                <Link href="/about">
+                    Page 2
+                </Link>
+            </header>
+
+            <main className="p-24 h-full bg-slate-700">
+                main
+            </main>
+        </>
+    );
 }
