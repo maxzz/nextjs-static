@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import React from 'react';
 
-export default function About() {
+export default function page() {
     return (<>
         <header className="mb-4 p-4 text-slate-300 bg-slate-700 flex items-center justify-between">
             <div className="text-2xl">
-                About
+                Breeding
             </div>
 
             <div className="space-x-2">
@@ -14,5 +14,6 @@ export default function About() {
                 </Link>
             </div>
         </header>
-    </>);
+    </>
+    );
 }
