@@ -1,4 +1,6 @@
+import Image from "next/image";
 import { HeaderButton } from "@/components/header-button";
+import { assetPrefix } from "../next.config.images";
 
 export default function Home() {
     return (<>
@@ -15,6 +17,15 @@ export default function Home() {
 
         <main className="p-24 h-full bg-slate-700/50">
             main
+
+            <Image
+                className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                src={`${assetPrefix}next.svg`}
+                alt="Next.js Logo"
+                width={180}
+                height={37}
+                priority
+            />
         </main>
     </>);
 }
