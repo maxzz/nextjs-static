@@ -1,5 +1,4 @@
-import Link from 'next/link';
-import React from 'react';
+import { HeaderButton } from '@/components/header-button';
 
 export default function page() {
     return (<>
@@ -9,9 +8,7 @@ export default function page() {
             </div>
 
             <div className="space-x-2">
-                <Link href=".." className="px-3 py-2 hover:bg-slate-600 focus-within:bg-slate-600 border-slate-300 border rounded outline-none">
-                    Back
-                </Link>
+                <HeaderButton href=".." children="Back" />
             </div>
         </header>
     </>
