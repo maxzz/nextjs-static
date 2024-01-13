@@ -1,3 +1,9 @@
+# About
+
+Next.js Static Routes.
+
+![](./src/assets/previews/2024-01-13_14-35-32.png)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
