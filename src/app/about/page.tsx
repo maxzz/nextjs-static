@@ -8,7 +8,7 @@ export default function About() {
             </div>
 
             <div className="space-x-2">
-                <HeaderButton href=".." children="Back" />
+                <HeaderButton href="/" children="Back" />
             </div>
         </header>
     </>);
